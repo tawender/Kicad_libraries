@@ -1,0 +1,281 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74CBTLV3253
+D Dual 1-of-4 multiplexer
+K multiplexer, mux
+$ENDCMP
+#
+$CMP 74CBTLV3257
+D Quad 1-of-2 multiplexer/demultiplexer
+$ENDCMP
+#
+$CMP AD5144
+D quad, digital potentiometer
+$ENDCMP
+#
+$CMP AD7683
+D ADC, 16-bit, SPI Interface
+K ADC
+$ENDCMP
+#
+$CMP AD8603
+D  IC OPAMP GP 400KHZ RRO TSOT23-5 
+K AmpliOp
+F op_amps/tl071.pdf
+$ENDCMP
+#
+$CMP AD8607
+D Op-Amp, dual, SOIC-8
+K opamp
+$ENDCMP
+#
+$CMP AD8609
+D Op-Amp, quad, SOIC-14
+K opamp
+$ENDCMP
+#
+$CMP Ant
+D Antenna connector
+$ENDCMP
+#
+$CMP BU33TD3WG
+D CMOS LDO Regulator, 3.3V
+$ENDCMP
+#
+$CMP CAP_NP_1
+D 1uF 16V X7R 0603
+$ENDCMP
+#
+$CMP CONN_01X03
+D Connector 01x03
+$ENDCMP
+#
+$CMP DMN2300
+D MOSFET N-CH 20V 1.3A 3DFN, Low Rdson
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Diode
+D Diode
+$ENDCMP
+#
+$CMP Diode-Schottky
+D Diode
+$ENDCMP
+#
+$CMP Dual_Diode
+D Dual Diode Common A-K
+K Dual Diode
+$ENDCMP
+#
+$CMP GasSensor15x2CLCC
+D Gas Sensor 15x2, Package = 12.7x12.7mm 32L CLCC
+$ENDCMP
+#
+$CMP GasSensor16x2-QFN32
+D Gas Sensor 16x2, Package 5x5mm 32L QFN
+$ENDCMP
+#
+$CMP GasSensor16x2-QFN36
+D Gas Sensor 16x2, Package 6x6mm 36L QFN
+$ENDCMP
+#
+$CMP GasSensor16x2QFN
+D Gas Sensor 16x2, Package 5x5mm 32L QFN
+$ENDCMP
+#
+$CMP GasSensor8x2-CLCC36
+D 36-pin CLCC carrier for 8x2 gas sensors
+$ENDCMP
+#
+$CMP HC109
+D variable capacitance humidity sensor
+$ENDCMP
+#
+$CMP HTU21D
+D Relative Humidity Sensor w/ Temperature Output
+$ENDCMP
+#
+$CMP Header_01X02
+D Connector 01x02
+$ENDCMP
+#
+$CMP Header_01x03
+D Header_01X03
+$ENDCMP
+#
+$CMP INA826
+D Instrumentation amplifier
+K INSTRUMENTATION
+$ENDCMP
+#
+$CMP ISL6292
+D Battery Charger
+$ENDCMP
+#
+$CMP L
+D Inductor
+$ENDCMP
+#
+$CMP LTC26x6
+D DAC
+$ENDCMP
+#
+$CMP LTC3114-1
+D Buck-Boost DC/DC Converter with Programmable Output Current
+$ENDCMP
+#
+$CMP LTC3539
+D Step-Up DC/DC Converters
+$ENDCMP
+#
+$CMP LTC3650
+D High Voltage, 2 Amp, Li-Ion Battery Charger
+$ENDCMP
+#
+$CMP MCP4921
+D MCP4921, Single 12-bit Digital to Analog Converter, SPI Interface, MSOP-8
+K Single DAC 1ch 12bit SPI
+F http://ww1.microchip.com/downloads/en/devicedoc/21897a.pdf
+$ENDCMP
+#
+$CMP MCP4921-E/P
+D Single 12-bit Digital to Analog Converter, SPI Interface, PDIP-8
+K Single DAC 1ch 12bit SPI
+F http://ww1.microchip.com/downloads/en/devicedoc/21897a.pdf
+$ENDCMP
+#
+$CMP MCP4921-E/SN
+D MCP4921, Single 12-bit Digital to Analog Converter, SPI Interface, SOIC-8
+K Single DAC 1ch 12bit SPI
+F http://ww1.microchip.com/downloads/en/devicedoc/21897a.pdf
+$ENDCMP
+#
+$CMP MS5637
+D Barometric Pressure/Temperature Sensor
+$ENDCMP
+#
+$CMP MS8607
+D Barometric Pressure/Temperature/Humidity Sensor
+$ENDCMP
+#
+$CMP MSP430F5529
+D Microcontroller, 16-bit, 128KB Flash
+$ENDCMP
+#
+$CMP Magnetic_RX
+D Magnetic Receiver from EPC(half of demo board)
+$ENDCMP
+#
+$CMP P1110B
+D Powercast Power Harvester IC, 915MHz, 0-20dBm
+$ENDCMP
+#
+$CMP Photodiode_OP980
+D Silicon Photodiode, PLCC-2 package, visible and near infrared
+$ENDCMP
+#
+$CMP QS4A110
+D Dual 5PST Switch IC
+K 5PST, switch
+$ENDCMP
+#
+$CMP Q_PMOS_DGS
+D Transistor P-MOSFET (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_Si1101X
+D MOSFET P-CH 12V SC-89
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP RGB_s9702
+D RGB color sensor - Hamamatsu S9702
+$ENDCMP
+#
+$CMP Relay_DPDT
+D Double-Pole, Double-Throw Relay
+$ENDCMP
+#
+$CMP Relay_SPDT
+D Single-Pole, Double-Throw Relay
+$ENDCMP
+#
+$CMP Relay_SPDT_6GE
+D Single-Pole, Double-Throw Relay
+$ENDCMP
+#
+$CMP Res1_1
+D RES SMD 10K OHM 1% 1/16W 0402
+$ENDCMP
+#
+$CMP Res1_2
+D RES SMD 1 OHM 5% 2W 2512
+$ENDCMP
+#
+$CMP Res1_3
+D THERMISTOR_33K_OHM_NTC_0402_SMD
+$ENDCMP
+#
+$CMP Rpi_HDR-40
+D Raspberry Pi3 40-Pin Header
+$ENDCMP
+#
+$CMP S9702
+D RGB color sensor - Hamamatsu S9702
+$ENDCMP
+#
+$CMP TL081
+D Op amp.
+K AmpliOp
+$ENDCMP
+#
+$CMP TLV1G125
+D single FET bus switch
+K switch
+$ENDCMP
+#
+$CMP TPS73125
+D LDO Regulator, 2.5V, 0.15A SOT23-5
+K  
+$ENDCMP
+#
+$CMP TP_SMT_TnB
+D testpoint, surface mount pad on top and bottom
+$ENDCMP
+#
+$CMP TP_SMT_loop
+D Testpoint, Surface Mount, 0603 size
+$ENDCMP
+#
+$CMP TS318B
+D Thermopile with integrated RTD sensor
+$ENDCMP
+#
+$CMP VREG
+D CMOS LDO Regulator
+$ENDCMP
+#
+$CMP Zener
+D Diode
+$ENDCMP
+#
+$CMP pogo_alignment_holes
+D holes for aligning pcb over pogo pins in fixture
+$ENDCMP
+#
+$CMP probe_point
+D probe point sized for oscilloscope probe
+$ENDCMP
+#
+$CMP pth_0.025
+D plated thru-hole 0.025" diameter
+$ENDCMP
+#
+$CMP switch_spdt
+D switch - single-pole, double-throw
+K switch
+$ENDCMP
+#
+#End Doc Library

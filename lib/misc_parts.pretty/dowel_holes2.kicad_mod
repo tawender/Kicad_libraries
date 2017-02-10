@@ -1,0 +1,10 @@
+(module dowel_holes2 (layer F.Cu) (tedit 5892E822)
+  (fp_text reference H3 (at -8.636 -24.392) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value dowel_holes2 (at -8.636 -25.392) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at -27 -17.5) (size 1.6764 1.6764) (drill 1.6764) (layers *.Cu *.Mask F.SilkS))
+  (pad "" np_thru_hole circle (at 12 -17.5) (size 1.6764 1.6764) (drill 1.6764) (layers *.Cu *.Mask F.SilkS))
+)
