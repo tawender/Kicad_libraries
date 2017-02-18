@@ -34,8 +34,18 @@ D Op-Amp, quad, SOIC-14
 K opamp
 $ENDCMP
 #
+$CMP ADG706
+D Mux 16:1, 28TSSOP, Analog Devices
+K Mux
+$ENDCMP
+#
 $CMP Ant
 D Antenna connector
+$ENDCMP
+#
+$CMP BME280
+D Temperature, Humidity, Pressure Sensor
+K temperature humidity pressure sensor
 $ENDCMP
 #
 $CMP BU33TD3WG
@@ -247,6 +257,11 @@ $ENDCMP
 #
 $CMP TP_SMT_loop
 D Testpoint, Surface Mount, 0603 size
+$ENDCMP
+#
+$CMP TP_wirehole
+D thruhole testpoint, resistor lead sized
+K testpoint
 $ENDCMP
 #
 $CMP TS318B
