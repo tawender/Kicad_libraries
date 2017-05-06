@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2N7002
+D N-Channel MOSFET, SOT-23
+K N-Channel MOSFET Logic Level
+$ENDCMP
+#
 $CMP 74CBTLV3253
 D Dual 1-of-4 multiplexer
 K multiplexer, mux
@@ -16,6 +21,11 @@ $ENDCMP
 $CMP AD7683
 D ADC, 16-bit, SPI Interface
 K ADC
+$ENDCMP
+#
+$CMP AD8293
+D instrumentation amplifier
+K op-amp, instrumentation amplifier
 $ENDCMP
 #
 $CMP AD8603
@@ -175,6 +185,11 @@ $ENDCMP
 #
 $CMP Magnetic_RX
 D Magnetic Receiver from EPC(half of demo board)
+$ENDCMP
+#
+$CMP NX3L4051
+D single 1:8 mux
+K mux
 $ENDCMP
 #
 $CMP P1110B
