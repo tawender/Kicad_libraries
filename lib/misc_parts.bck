@@ -66,8 +66,17 @@ $CMP CAP_NP_1
 D 1uF 16V X7R 0603
 $ENDCMP
 #
+$CMP CAP_POL
+D polarized capacitor
+K capacitor polarized
+$ENDCMP
+#
 $CMP CONN_01X03
 D Connector 01x03
+$ENDCMP
+#
+$CMP DC-DC
+D DC-to-DC Converter
 $ENDCMP
 #
 $CMP DMN2300
@@ -77,6 +86,11 @@ $ENDCMP
 #
 $CMP Diode
 D Diode
+$ENDCMP
+#
+$CMP Diode-BAS16L
+D Diode
+K BAS16L, Switching Diode
 $ENDCMP
 #
 $CMP Diode-Schottky
@@ -151,6 +165,10 @@ $ENDCMP
 #
 $CMP LTC3650
 D High Voltage, 2 Amp, Li-Ion Battery Charger
+$ENDCMP
+#
+$CMP MC34063ECD
+D DC-DC Converter
 $ENDCMP
 #
 $CMP MCP4921
