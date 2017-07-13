@@ -269,6 +269,11 @@ $CMP S9702
 D RGB color sensor - Hamamatsu S9702
 $ENDCMP
 #
+$CMP SW_PUSH_MOM_RA
+D Button
+K Switch
+$ENDCMP
+#
 $CMP TL081
 D Op amp.
 K AmpliOp
