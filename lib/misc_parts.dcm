@@ -14,6 +14,16 @@ $CMP 74CBTLV3257
 D Quad 1-of-2 multiplexer/demultiplexer
 $ENDCMP
 #
+$CMP 74HC05
+D Inverseur Open Collect
+K TTL not inv OpenCol
+$ENDCMP
+#
+$CMP 74LS05
+D Inverseur Open Collect
+K TTL not inv OpenCol
+$ENDCMP
+#
 $CMP AD5144
 D quad, digital potentiometer
 $ENDCMP
@@ -75,6 +85,11 @@ $CMP CONN_01X03
 D Connector 01x03
 $ENDCMP
 #
+$CMP CSS555C
+D CSS Programmable 555 Timer Chip
+K 555
+$ENDCMP
+#
 $CMP DC-DC
 D DC-to-DC Converter
 $ENDCMP
@@ -100,6 +115,14 @@ $ENDCMP
 $CMP Dual_Diode
 D Dual Diode Common A-K
 K Dual Diode
+$ENDCMP
+#
+$CMP FT245BL
+D FTDI USB to Parallel IC
+$ENDCMP
+#
+$CMP Ferrite
+D ferrite bead
 $ENDCMP
 #
 $CMP GasSensor15x2CLCC
@@ -287,6 +310,11 @@ $ENDCMP
 $CMP TPS73125
 D LDO Regulator, 2.5V, 0.15A SOT23-5
 K  
+$ENDCMP
+#
+$CMP TP_SMT
+D small surface mount pad for testpoint
+K testpoint
 $ENDCMP
 #
 $CMP TP_SMT_TnB
