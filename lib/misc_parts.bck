@@ -1,5 +1,21 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2N3904
+D Transistor NPN (general)
+K npn transistor
+$ENDCMP
+#
+$CMP 2N3906
+D Transistor PNP (general)
+K pnp transistor
+$ENDCMP
+#
+$CMP 2N7000
+D MOSFET N-CH 60V 200MA TO-92
+K N-Channel MOSFET
+F http://www.fairchildsemi.com/ds/BS/BS170.pdf
+$ENDCMP
+#
 $CMP 2N7002
 D N-Channel MOSFET, SOT-23
 K N-Channel MOSFET Logic Level
@@ -17,6 +33,16 @@ $ENDCMP
 $CMP 74HC05
 D Inverseur Open Collect
 K TTL not inv OpenCol
+$ENDCMP
+#
+$CMP 74HC4066
+D Quad Analog Switch
+K Analog Switch
+$ENDCMP
+#
+$CMP 74HC74
+D D-Type, Positive Edge Triggered Flip-Flop With Clear and Preset
+K Flip-Flop
 $ENDCMP
 #
 $CMP 74LS05
@@ -63,6 +89,10 @@ $CMP Ant
 D Antenna connector
 $ENDCMP
 #
+$CMP BAT54
+D Schottky Diode Dual Package SOT-23
+$ENDCMP
+#
 $CMP BME280
 D Temperature, Humidity, Pressure Sensor
 K temperature humidity pressure sensor
@@ -81,8 +111,26 @@ D polarized capacitor
 K capacitor polarized
 $ENDCMP
 #
+$CMP CD4020B
+D Binary Counter/Divider
+K counter divider
+$ENDCMP
+#
+$CMP CONN-96
+D Connector 01x32
+K 96-pin connector, 3-row
+$ENDCMP
+#
 $CMP CONN_01X03
 D Connector 01x03
+$ENDCMP
+#
+$CMP CSS141_PLCC44_socket
+D PLCC44 socket for CSS141 evaluation testing
+$ENDCMP
+#
+$CMP CSS141_switcher
+D daughter card connection to CSS141(bottom side) for switcher parts
 $ENDCMP
 #
 $CMP CSS555C
@@ -90,8 +138,17 @@ D CSS Programmable 555 Timer Chip
 K 555
 $ENDCMP
 #
+$CMP Current_Meas_Transformer
+D Current Measurement Transformer
+$ENDCMP
+#
 $CMP DC-DC
 D DC-to-DC Converter
+$ENDCMP
+#
+$CMP DG408
+D Analog Mux, 1:8
+K Analog Mux
 $ENDCMP
 #
 $CMP DMN2300
@@ -172,6 +229,16 @@ $ENDCMP
 #
 $CMP L
 D Inductor
+$ENDCMP
+#
+$CMP LM324
+D Quad op-amp
+K op-amp
+$ENDCMP
+#
+$CMP LTC1451
+D 12-bit DAC
+K DAC
 $ENDCMP
 #
 $CMP LTC26x6
@@ -256,6 +323,11 @@ D MOSFET P-CH 12V SC-89
 K pmos p-mos p-mosfet transistor
 $ENDCMP
 #
+$CMP RES_SIP_10
+D 10 resistor single-inline-pin package
+K SIP, resistor package
+$ENDCMP
+#
 $CMP RGB_s9702
 D RGB color sensor - Hamamatsu S9702
 $ENDCMP
@@ -290,6 +362,11 @@ $ENDCMP
 #
 $CMP S9702
 D RGB color sensor - Hamamatsu S9702
+$ENDCMP
+#
+$CMP SN74LVC2G02
+D Dual 2-Input Positive-NOR Gate
+K dual input nor
 $ENDCMP
 #
 $CMP SW_PUSH_MOM_RA
@@ -340,6 +417,11 @@ $ENDCMP
 #
 $CMP Zener
 D Diode
+$ENDCMP
+#
+$CMP meter_voltage_current1
+D Meter to display voltage and current
+K meter
 $ENDCMP
 #
 $CMP pogo_alignment_holes
